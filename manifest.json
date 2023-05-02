@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Sorter",
+  "version": "1.0",
+  "description": "Sorts tabs by website domain.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab","tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
